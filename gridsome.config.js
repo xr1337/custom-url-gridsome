@@ -69,9 +69,16 @@ module.exports = {
     }
   },
   templates: {
-    Blog: [{
+    Blog: [
+    {
       path: '/blog/:url'
-    }],
+    },
+    {
+        name: 'redirects',
+        path: '/blog/:title',
+        component: './src/components/Redirect.vue'
+      }
+    ],
     Category: [{
       path: '/category/:title',
       component: '~/templates/Category.vue'
