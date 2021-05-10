@@ -13,7 +13,7 @@
     "@noxify/gridsome-remark-table-align": "^1.0.0",
     "gridsome": "^0.7.13",
     "gridsome-source-static-meta": "github:noxify/gridsome-source-static-meta#master",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "node-sass": "^4.13.1",
     "sass-loader": "^8.0.2",
     "tailwindcss": "^1.2.0",
